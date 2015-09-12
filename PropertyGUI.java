@@ -85,7 +85,7 @@ public class PropertyGUI extends JFrame
 				
 			}
 		
-		});	//end of listener if not commented out
+		});	
 	
 
 		readPropertiesItem.addActionListener(new ActionListener()
@@ -98,7 +98,7 @@ public class PropertyGUI extends JFrame
 		
 				Scanner input; 	
 				int accountNumber;	
-				Address address; //need to add these classes to the folder		
+				Address address; 		
 				double marketValue;	
 				Date datePurchased;	
 				int squareFeet;		
